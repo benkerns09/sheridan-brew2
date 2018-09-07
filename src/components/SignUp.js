@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import { auth, db } from '../firebase';
 import * as routes from '../constants/routes';
+import "./signUp.css";
 
 const SignUpPage = ({ history }) =>
     <div>
@@ -117,10 +118,10 @@ class SignUpForm extends Component {
 }
 
 const SignUpLink = () =>
-    <p>
+    <p className="signUp">
         Don't have an account?
         {''}
-        <Link to={routes.SIGN_UP}>Sign Up</Link>
+        <Link to={routes.SIGN_UP} className="SignUpLink"> Sign Up</Link>
     </p>
 
 export default withRouter (SignUpPage);

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import AuthUserContext from './AuthUserContext';
 import SignOutButton from './SignOut';
 import * as routes from '../constants/routes';
+import "./Navigation.css";
 
 const Navigation = () =>
     <AuthUserContext.Consumer>
@@ -14,17 +15,25 @@ const Navigation = () =>
     </AuthUserContext.Consumer>
 
 const NavigationAuth = () =>
-    <ul>
-        <li><Link to={routes.LANDING}>Landing</Link></li>
-        <li><Link to={routes.HOME}>Home</Link></li>
-        <li><Link to={routes.ACCOUNT}>Account</Link></li>
-        <li><SignOutButton /></li>
-    </ul>
+    <div>
+        <ul className="content">
+            <li><Link to={routes.LANDING}>Landing</Link></li>
+            <li><Link to={routes.HOME}>Home</Link></li>
+            <li><Link to={routes.ACCOUNT}>Account</Link></li>
+            <li><SignOutButton /></li>
+        </ul>
+    </div>
+
+//reminder, I took out a link to Landing here below
 
 const NavigationNonAuth = () =>
-    <ul>
-        <li><Link to={routes.LANDING}>Landing</Link></li>
-        <li><Link to={routes.SIGN_IN}>Sign In</Link></li>
-    </ul>
+    <div className="container">
+        <div className="row1">
+            <div className="col"><Link to={routes.LANDING} className="home">Sheridan Brew</Link></div>
+        </div>
+        <div className="row">
+            <div className="col"><Link to={routes.SIGN_IN} className="signIn">Sign In / Sign Up</Link></div>
+        </div>
+    </div>
     
 export default Navigation;

@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+.App-logo {
+    width: 5%;
+    height: auto;
+}
+
+.NoAuthContent {
+    list-style-type: none;
+}
+
+.row {
+    text-align: center;
+    font-size: 25px;
+}
+
+.row1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+

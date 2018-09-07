@@ -5,6 +5,7 @@ import { SignUpLink } from './SignUp';
 import { PasswordForgetLink } from './PasswordForget';
 import { auth } from '../firebase';
 import * as routes from '../constants/routes';
+import "./SignIn.css";
 
 const SignInPage = ({ history }) =>
     <div>
@@ -78,7 +79,7 @@ class SignInForm extends Component {
                     type="password"
                     placeholder="Password"
                 />
-                <button disabled={isInvalid} type="submit">
+                <button disabled={isInvalid} type="submit" className="btn">
                     Sign In
                 </button>
 

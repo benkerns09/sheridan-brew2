@@ -1,0 +1,125 @@
+.OrderBody {
+    background-color: lightgreen;
+}
+
+h2 {
+    text-align: center;
+}
+
+.panel-body {
+    text-align: left;
+    padding-left: 10%;
+    background-color: lightgreen;
+}
+
+.form-group1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+.form-control {
+    border: 2px solid black;
+}
+
+.radio {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#coffeeOrder {
+    width: 80%;
+}
+
+#emailInput {
+    width: 80%;
+}
+
+.radio .size {
+    font-size: 50px;
+    text-indent: 5px;
+}
+
+.slidecontainer {
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 2%; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 5%; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 1%; /* Set a specific slider handle width */
+    height: 1%; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#addressInput {
+    width: 80%;
+}
+
+.form-group3 {
+    padding-bottom: 3%;
+}
+
+#addressLine2Input {
+    width: 50%;
+}
+
+.form-group4 {
+    padding-bottom: 3%;
+}
+
+.form-group6 {
+    padding-bottom: 3%;
+    width: 50%;
+}
+
+.form-row {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.btn {
+    padding: 3px;
+}
+
+#order {
+    width: 80%;
+}
+
+.form-row2 {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#order {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.orderBtn {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
